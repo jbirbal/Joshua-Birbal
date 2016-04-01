@@ -1,23 +1,50 @@
 body{
 	background:#;
-	background-color: white;
+	background-color: #00000ff0;
 	font-family: Comic;
+
+}
+p{
+	color: red;
 }
 
+
+.thin-red-border{
+    border-color: blue;
+    border-width: 40px;
+    border-style: solid;
+    border-radius: 200px;
+  }
 header,
-nav ul,li,{
+nav,ul,li,{
 	display: inline-block;
 	list-style-type: none;
+	color: black;
+	margin: 10px;
 }
-
+a{  
+	background-color: red;
+	display: inline-block;
+	list-style-type: none;
+	color: #f5f5f5;
+	margin: 5px;
+	
+}
+.blueborder{
+	border-color: blue;
+    border-width: 10px;
+    border-style: solid;
+  }
+}
 h1{
-	pointer: white;
-	background: #222;
+	
+	color: #000;
+	background: #47e;
 	padding: 6px;
 }
 
 h2{
-	color: blue;
+	color: #blue;
 	background: #789;
 	padding: 10px;
 }
@@ -26,15 +53,28 @@ h3{
 	color: rgb(456); ;
 	background: #666;
 	padding: 10px;
-]
-
-
-a{
-	color: rgb(777);
 }
+
 li{
+	margin: 10px;
 	
 }
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+
+
 
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
