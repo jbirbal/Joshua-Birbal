@@ -1,6 +1,6 @@
 body{
 	background:#;
-	background-color: #00000ff0;
+	background-color: #00000f;
 	font-family: Comic;
 
 }
@@ -11,7 +11,7 @@ p{
 
 .thin-red-border{
     border-color: blue;
-    border-width: 40px;
+    border-width: 15px;
     border-style: solid;
     border-radius: 200px;
   }
@@ -32,32 +32,56 @@ a{
 }
 .blueborder{
 	border-color: blue;
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
   }
+form{
+	background-color: red;
+	border-color: ;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
 }
+
+
+
 h1{
 	
-	color: #000;
-	background: #47e;
-	padding: 6px;
+	color: white;
+	background: ;
+	padding: 10px;
+	text-align: center;
 }
 
 h2{
 	color: #blue;
-	background: #789;
-	padding: 10px;
+	background: #bff;
+	padding: 3x;
+	border-radius: 5px; 
+	text-align: center;
 }
 
 h3{
-	color: rgb(456); ;
-	background: #666;
-	padding: 10px;
+	font-color: white;
+	color: white;
+	background: #0be;
+	padding: 3px;
+	border-radius: 10px;
+	text-align: center;
 }
 
+h4{
+	color: white;
+	padding:30px;
+	text-align: center;
+	font-size: 1px;
+}
 li{
 	margin: 10px;
-	
+.address{
+	text-align: center;
+}
+
 }
 .button {
     background-color: #4CAF50; /* Green */
@@ -68,8 +92,15 @@ li{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+   
 }
-
+.middle-align{
+	vertical-align: middle;
+}
+label{
+	text-align: center;
+	display: inline-block;
+}
 
 
 

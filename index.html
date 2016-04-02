@@ -18,7 +18,7 @@
 <script type="text/javascript">
 	
 		$(document).ready(function() {
-    $("button").addClass("animated bounce");
+    $("button").bounce("animated bounce");
  
 }
 	</script>
@@ -30,58 +30,68 @@
 
 
 
-<div class="row">
-  <div class="col-xs-4">
- 	<Header><h1>My Website/ CV</h1></Header>
- 	<div class="btn-group-vertical" role="group" aria-label="..."
-  <nav><ul class="text-center"><p></p>
-	<li><p class="text-center"> My name is Joshua Birbal I live in London and am looking for a job in computing one with training and progression opportunities
-	I have created this website utilizing HTML, CSS and Java-script skills. I am looking to learn  many other web development and computing skills and plan to put them into action through the use of this website to show case my skills, as a developer</p></li>
-	<li><h2> Hi, this is my first web development project</h2></li>
-	<li><h3>And please look through my other pages for more info</h3></li>
-	<li></li>
-	</ul></nav><br>
-
+<div class="container-fluid row">
+  <div class="col-xs-6">
+ 	<Header><h1>E-Portfolio<br> Joshua Birbal</h1></Header>
+ 	
+	<p class="text-center"> My name is Joshua Birbal I live in London and am looking for a job in computing one with training and progression opportunities
+	I have created this website utilizing HTML, CSS and Java-script skills. I am looking to learn  many other web development and computing skills and plan to put them into action through the use of this website to show case my skills, as a developer</p>
 	<p></p>
+<h3> Hi, this is my first web development project</h3>
 
-	<h2><p class="text-center">If you are looking for a web or software developer then maybe the person who made this website could be your guy so <a href="page4.html">contact me</a></p></h2>
-</div>
+
+	<h2><p class="text-center"><a href="page4.html">Front End Developer available for permanent or contracted employment.</a></p></h2>
+	
+	<h3>And please look through my other pages for more info</h3>	
  	
 </div>
-<div class="col-xs-4"> <p class="text-center">So what do you think of my picture ?<br></p>
+<div class="container-fluid row col-xs-3"> 
 
-<div class="row">
-<div class="col-xs-2">
-<input type="radio" name="radio" id="radio1" class="radio" checked/>
-<label for="radio1">Good</label>
-</div>
+<img src="images/me.jpg" class="img-responsive thin-red-border";
 
-<div class="col-xs-2">
-<input type="radio" name="radio" id="radio1" class="radio" checked/>
-<label for="radio1">Bad</label>
-</div></div>
-
-<button>Submit</button>
-
-<p><a class="btn btn-default" btn-lg active href="page2.html"> Go my contact page</a></p>
-<p><a type="button" class="btn btn-info" href="page3.html">Info</a>
-</p>
-<img src="images/me.jpg" class="img-responsive thin-red-border";>
-</div>
-<div class="col-xs-4">
-<div>
-<button class=" btn btn-info"><a href="index.html">Home</a></button><p></p>
+<p><button class="btn btn-info"><a href="index.html">Home</a></button></p>
 <button class=" btn btn-info"><a href="page2.html">Why I created this website</a></button><br><p></p>
-	<button class=" btn btn-info"><a href="page3.html"><em>My skills & work experience</em></a></button><p></p>
+	<button class=" btn btn-default"><a href="page3.html"><strong>My skills & work experience</strong></a></button><p></p>
 	<button class=" btn btn-info"><a href="page4.html"><strong>My personal info & contact details</strong></a></button><p></p>
 
 
+
+
+<p><a class="btn btn-default" btn-lg active href="page4.html"> Go my contact page</a></p>
+<p><a type="button" class="btn btn-info" href="page3.html">Info</a>
+</p>
+
+</div>
+<div class="container-fluid col-xs-3">
+<div>
+<br>
+<p class="text-center"><h3>So what do you think of my picture ?</h3><br></p>
+
+<div class="row">
+<div class="container-fluid col-xs-4">
+<input type="radio" name="radio" id="radio1" class="radio" checked/>
+<label for="radio1">Great</label>
+</div>
+
+<div class="container-fluid row col-xs-4">
+<input type="radio" name="radio" id="radio2" class="radio middle-align container-fluid" not checked/>
+<label for="radio1">not bad?</label>
+</div>
+<div class="container-fluid row middle-align col-xs-4">
+<input type="radio" name="radio" id="radio3" class="radio" not checked/>
+<label for="radio1">Change it !!</label>
+<button>Submit</button>
+
+</div></div>
+
+<p></p>
+<form>
 <h1>Social media:</h1>
 <ul>
 <li><button><a href="https://www.facebook.com/joshua.birbal">Facebook</a></button></li>
 <li><button><a href="https://www.linkedin.com/in/joshua-birbal-a16806b5?trk=hp-identity-photo">Linkedin</a></button></li></ul>
-
-<h1>Things that I can create with a website !!!</h1>	
+</form>
+<h3>Things that I can create with a website !!!</h3>	
 <div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Dropdown
