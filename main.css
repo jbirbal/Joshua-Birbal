@@ -1,11 +1,37 @@
-body{
-	background:#;
+.bodybackground{
+	border-style: solid;
+	border-width: 10px;
+	border-radius: 30px;
+	background-image:"background.jpg";
 	background-color: #00000f;
 	font-family: Comic;
+	background-color: white;
+    display: inline-block;
+    text-align: center;
+	background-image:url(11.jpg);
+}
+backgroundborder{
+	background-color: white;
+	border-color: ;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    
+    display: inline-block;
+    text-align: center;
+}
+
+}
+body{
+
+	background-color: #00000f;
+	font-family: Comic;
+
 
 }
 p{
 	color: red;
+	padding: 10px;
 }
 
 
@@ -14,6 +40,7 @@ p{
     border-width: 15px;
     border-style: solid;
     border-radius: 200px;
+    margin: 10px;
   }
 header,
 nav,ul,li,{
@@ -21,46 +48,45 @@ nav,ul,li,{
 	list-style-type: none;
 	color: black;
 	margin: 10px;
+	padding: 10px;
 }
-a{  
-	background-color: red;
-	display: inline-block;
-	list-style-type: none;
-	color: #f5f5f5;
-	margin: 5px;
-	
-}
+
 .blueborder{
 	border-color: blue;
     border-width: 5px;
     border-style: solid;
+    padding: 5px;
+    margin: 10px;
   }
 form{
-	background-color: red;
+	background-color: white;
 	border-color: ;
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
 }
-
-
-
+div{
+	margin: 10px;
+}
 h1{
 	
 	color: white;
 	background: ;
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
+	font-size: 100px;
 }
-
 h2{
 	color: #blue;
 	background: #bff;
-	padding: 3x;
+	padding: 3px,10px;
 	border-radius: 5px; 
 	text-align: center;
 }
-
 h3{
 	font-color: white;
 	color: white;
@@ -72,27 +98,30 @@ h3{
 
 h4{
 	color: white;
-	padding:30px;
+	padding:5px;
 	text-align: center;
 	font-size: 1px;
 }
 li{
 	margin: 10px;
-.address{
+address{
 	text-align: center;
 }
 
 }
-.button {
+button{
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-   
+    font-size: 12px;
+    border-radius: 30px;
+    margin: 10px;
+    position: relative;
+ 
 }
 .middle-align{
 	vertical-align: middle;
